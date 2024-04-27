@@ -3,56 +3,139 @@ version: "3.1"
 nlu:
   - intent: greet
     examples: |
-      - hey
-      - hello
       - hi
-      - hello there
-      - good morning
-      - good evening
-      - moin
-      - hey there
-      - let's go
-      - hey dude
-      - goodmorning
-      - goodevening
-      - good afternoon
-      - hallo
-      - guten morgen
-      - guten tag
-      - los geht's
-      - halli hello
-      - guten abend
-      
-  - intent: ext_colour_car
-    examples: |
-      - What color options are available for the Mercedes electric vehicle?
-      - Can you provide a list of available colors for the Mercedes electric car?
-      - Do you have any metallic color options for the Mercedes electric vehicle?
-      - Are there any special edition or limited edition color options for the Mercedes electric car?
-      - Can I customize the color of my Mercedes electric vehicle?
-      - Is there an additional cost for choosing certain color options for the Mercedes electric car?
-      - Do you have any eco-friendly paint options for the Mercedes electric vehicle?
-      - Can you describe the Diamond White color option available for the Mercedes electric car?
-      - Are there any two-tone color combinations available for the Mercedes electric vehicle?
-      - Do you offer any matte finish paint options for the Mercedes electric car?
-      - Can I see some images of the Mercedes electric vehicle in different color options?
-      - What's the most popular color choice for the Mercedes electric car?
-      - Are there any color options that are exclusive to the electric model of Mercedes vehicles?
-      - Does the color choice affect the delivery time of the Mercedes electric vehicle?
-      - Can I change the color of my Mercedes electric vehicle after placing the order?
-      - Is there a warranty for the paint finish of the Mercedes electric car?
-      - Are there any color options that require special maintenance for the Mercedes electric vehicle?
-      - Do you have any color packages or bundles available for the Mercedes electric car?
-      - Can I request a custom color for my Mercedes electric vehicle?
-      - Are there any upcoming color options or paint upgrades planned for the Mercedes electric car?
+      - hello
+      - yoo
+      - heyy
 
-  - intent: out_of_scope
+  - intent: action_range_very
     examples: |
-      - I want to order food
-      - What is 2 + 2?
-      - Who's the US President?
-      - Wer wird Fußball Weltmeister?
-      - Welche Restaurants gibt es in München?
-      - sdfsdfs
-      - soos
-      - are you stupid?
+      - range is very important
+      - extremely important
+      - crucial
+      - the range is essencial
+      - important
+      - indispensable
+      - I need car's range
+
+  - intent: action_range_little
+    examples: |
+      - of little importance
+      - of no importance
+      - I do not care about ample range
+      - I don't care at all
+      - not important
+      - I don't need car's range
+
+  - intent: action_vehicle_body_suv
+    examples: |
+      - An suv is what interests me the most
+      - I would like an SUV
+      - I want an suv
+      - I love SUVs
+      - I would like an Offroader
+      - I want an offroader
+      - I want a combi
+      - I'd like an MPV
+      - I want an MPV
+      - Im interested in Hatchbacks
+      - Hatchbacks
+      - Estate for sure
+      - An Estate
+      - Something compact
+      - I want a compact vehicle
+      - compact would be nice
+      - I would like a bigger car
+      - I want something big
+
+  - intent: action_vehicle_body_saloon
+    examples: |
+      - I want a saloon
+      - saloon
+      - saloon would be cool
+      - saloon would be nice
+      - I would like a saloon
+      - I like Coupés
+      - I would like a long car
+      - Something long
+      - Something stylish
+      - something classy
+      - I want a car that is elegant
+      - I want a sidan
+      - I like sidans
+      - I am into sidans
+      - Something like a limousine
+
+  - intent: action_features_tech
+    examples: |
+      - what I prioritze the most is tech
+      - I want my car to have the newest technology
+      - I am interested in technology the most
+      - I want my car to be modern and cool
+      - I'd like to have the best technologies in my car
+      - I love technology
+
+  - intent: action_features_transport
+    examples: |
+      - I see my car as a transportation mean
+      - I dont care about tech
+      - I dont care about luxus
+      - Luxus and tech are not important to me
+      - I want a car that does its job
+      - I just see my car a way to travel
+      - I just want the car to move around
+      - I dont give importance to luxus
+      - I dont want super high quality
+      - Quality is not a priority
+      - Tech is not my priority
+      - Im not looking for something premium
+
+  - intent: action_features_luxus
+    examples: |
+      - I want something more in the premium side
+      - I would like something premium
+      - I want something luxurius
+      - I want luxus
+      - I love a nice feel
+      - I want something that feels good
+      - I want quality
+      - I am looking for the best quality
+      - i want good mateirals
+
+  - intent: action_budget_high
+    examples: |
+      - Budget is not a problem
+      - I am willing to spend more money
+      - high budget
+      - I can afford spending more money
+      - i value quality over price
+      - price is not a problem
+
+  - intent: action_budget_medium
+    examples: |
+      - Not too much but not too little
+      - somewhere in the middle
+      - medium budget
+      - a normal price
+      - I have an average budget
+      - a medium price
+      - a price that is not too expensive
+
+  - intent: action_budget_low
+    examples: |
+      - I dont want to spend too much
+      - I do not have a low budget
+      - I want something cheap
+      - Im interested in something affordable
+      - I want to save money
+      - not too much money
+      - something cheap
+      - affordability is important
+
+  - intent: intent_value
+    examples: |
+      - I value that the price is good
+      - I want something good for the quality
+      - I would like a car that will last long
+      - I have a lot of kids so I want something big
+      - my car has to be eco-friendly
