@@ -1,10 +1,13 @@
 version: "3.1"
 
 stories:
-
-  - story: ext_colour_car
+  - story: Order pizza with delivery address
     steps:
-      - intent: greet
-      - action: utter_starter
-      - intent: ext_colour_car
-      - action: utter_ext_colour_car
+      - intent: order_pizza
+        entities:
+          - pizza_type: "margherita"
+      - action: action_ask_address
+      - intent: provide_address
+        entities:
+          - address: "Augsburg"
+      - action: action_confirm_order

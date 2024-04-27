@@ -1,0 +1,20 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-pizza_type",
+      "2": "I-pizza_type",
+      "3": "L-pizza_type",
+      "4": "U-pizza_type",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-pizza_type": 1,
+      "I-pizza_type": 2,
+      "L-pizza_type": 3,
+      "U-pizza_type": 4,
+      "O": 0
+    },
+    "num_tags": 5
+  }
+]
