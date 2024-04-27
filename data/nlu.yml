@@ -1,6 +1,7 @@
 version: "3.1"
 
 nlu:
+<<<<<<< Updated upstream
   - intent: greet
     examples: |
       - hey
@@ -56,3 +57,32 @@ nlu:
       - sdfsdfs
       - soos
       - are you stupid?
+=======
+  - intent: hi
+    examples: |
+      - hi
+      - hello
+
+  - intent: age
+    examples: |
+      - [25](age) 
+      - [11](age) 
+      - [1](age) 
+      - [4](age) 
+      - [8](age )
+      - [89](age) 
+      - [100](age) 
+      - [21](age) 
+      - [72](age)
+
+  - intent: gender
+    examples: |
+      - [male](gender)
+      - [female](gender)
+
+  - intent: field_of_study
+    examples: |
+      - I study computer science.
+      - Majoring in biology.
+      - Pursuing engineering.
+>>>>>>> Stashed changes

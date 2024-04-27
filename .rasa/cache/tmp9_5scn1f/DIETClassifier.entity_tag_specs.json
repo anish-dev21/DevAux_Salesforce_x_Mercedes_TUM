@@ -1,0 +1,36 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-age",
+      "2": "I-age",
+      "3": "L-age",
+      "4": "U-age",
+      "5": "B-age ",
+      "6": "I-age ",
+      "7": "L-age ",
+      "8": "U-age ",
+      "9": "B-gender",
+      "10": "I-gender",
+      "11": "L-gender",
+      "12": "U-gender",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-age": 1,
+      "I-age": 2,
+      "L-age": 3,
+      "U-age": 4,
+      "B-age ": 5,
+      "I-age ": 6,
+      "L-age ": 7,
+      "U-age ": 8,
+      "B-gender": 9,
+      "I-gender": 10,
+      "L-gender": 11,
+      "U-gender": 12,
+      "O": 0
+    },
+    "num_tags": 13
+  }
+]

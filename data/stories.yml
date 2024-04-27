@@ -1,6 +1,7 @@
 version: "3.1"
 
 stories:
+<<<<<<< Updated upstream
 
   - story: ext_colour_car
     steps:
@@ -8,3 +9,14 @@ stories:
       - action: utter_starter
       - intent: ext_colour_car
       - action: utter_ext_colour_car
+=======
+  - story: Determine client type
+    steps:
+      - intent: hi
+      - action: action_ask_age
+      - intent: age
+      - action: action_ask_gender
+      - intent: gender
+      - action: action_tailor_response
+      - action: action_determine_client_type
+>>>>>>> Stashed changes

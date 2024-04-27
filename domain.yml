@@ -1,6 +1,7 @@
 version: "3.1"
 
 intents:
+<<<<<<< Updated upstream
   - greet
   - ext_colour_car
   - out_of_scope
@@ -21,3 +22,43 @@ session_config:
   carry_over_slots_to_new_session: true
 actions:
   - action_default_fallback  
+=======
+  - hi
+  - age
+  - gender
+
+entities:
+  - age
+  - gender
+  - field_of_study
+  - client_type
+
+slots:
+  age:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: age
+  gender:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: gender
+  field_of_study:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: field_of_study
+  client_type:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: client_type
+
+actions:
+  - action_ask_age
+  - action_ask_gender
+  - action_ask_field_of_study
+  - action_determine_client_type
+  - action_tailor_response
+>>>>>>> Stashed changes
