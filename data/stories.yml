@@ -1,0 +1,10 @@
+version: "3.1"
+
+stories:
+
+  - story: ext_colour_car
+    steps:
+      - intent: greet
+      - action: utter_starter
+      - intent: ext_colour_car
+      - action: utter_ext_colour_car
