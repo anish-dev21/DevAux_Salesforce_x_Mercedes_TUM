@@ -10,7 +10,7 @@ user_input = st.text_input("Talk to the chatbot:")
 
 # Function to send the user message to Rasa and get the response
 def send_message(sender, message):
-    url = 'http://localhost:5005/webhooks/rest/webhook'
+    url = 'http://localhost:5002/webhooks/rest/webhook'
     payload = {
         "sender": sender,
         "message": message

@@ -1,103 +1,59 @@
 version: "3.1"
 
-storiess:
+stories:
+  - story: ext_colour_car
+    steps:
+      - intent: greet
+      - action: action_vehicle_body
+      - intent: intent_vehicle_body_suv
+      - action: action_vehicle_body_suv
+      - action: action_features
+      - intent: intent_features_tech
+      - action: action_features_tech
+      - action: action_range
+      - intent: intent_range_very
+      - action: action_range_very
+      - action: action_budget
+      - intent: intent_budget_high
+      - action: action_budget_high
+      - action: action_value
+      - intent: intent_value
+      - action: tailor_response
 
   - story: ext_colour_car
-      steps:
-        - intent: greet
-        - action: action_vehicle_body
-        - intent: action_vehicle_body_suv
-        - action: action_vehicle_body_suv
-        - action: action_features
-        - intent: action_features_tech
-        - action: action_features_tech
-        - action: acition_range
-        - intent: action_range_very
-        - action: action_range_very
-        - action: action_budget
-        - intent: action_budget_high
-        - action: action_budget_high
-        - action: action_value
-        - intent: action_value
-        - action: tailor_response
+    steps:
+      - intent: greet
+      - action: action_vehicle_body
+      - intent: intent_vehicle_body_saloon
+      - action: action_vehicle_body_saloon
+      - action: action_features
+      - intent: intent_features_transport
+      - action: action_features_transport
+      - action: action_range
+      - intent: intent_range_little
+      - action: action_range_little
+      - action: action_budget
+      - intent: intent_budget_medium
+      - action: action_budget_medium
+      - action: action_value
+      - intent: intent_value
+      - action: tailor_response
 
-  - story: suv
-      steps:
-        - intent: greet
-        - action: action_vehicle_body
-        - intent: action_vehicle_body_suv
-        - action: action_vehicle_body_suv
-
-    - story: saloon
-      steps:
-        - intent: greet
-        - action: action_vehicle_body
-        - intent: action_vehicle_body_saloon
-        - action: action_vehicle_body_saloon
-
-    - story: tech
-      steps:
-        - intent: greet
-        - action: action_features
-        - intent: action_features_tech
-        - action: action_features_tech
-
-    - story: transport
-      steps:
-        - intent: greet
-        - action: action_features
-        - intent: action_features_transport
-        - action: action_features_transport
-
-    - story: luxus
-      steps:
-        - intent: greet
-        - action: action_features
-        - intent: action_features_luxus
-        - action: action_features_luxus
-
-    - story: high 
-      steps:
-        - intent: greet
-        - action: acition_range
-        - intent: action_range_very
-        - action: action_range_very
-
-    - story: low
-      steps:
-        - intent: greet
-        - action: acition_range
-        - intent: action_range_little
-        - action: action_range_little
-
-    - story: expensive
-      steps:
-        - intent: greet
-        - action: action_budget
-        - intent: action_budget_high
-        - action: action_budget_high
-
-    - story: medium
-      steps: 
-        - intent: greet
-        - action: action_budget
-        - intent: action_budget_medium
-        - action: action_budget_medium
-
-    - story: low
-      steps:
-        - intent: greet
-        - action: action_budget
-        - intent: action_budget_low
-        - action: action_budget_low
-
-    - story: value
-      steps:
-        - intent: greet
-        - action: action_value
-        - intent: intent_value
-        - action: tailor_response
-
-
-
-      
+  - story: ext_colour_car
+    steps:
+      - intent: greet
+      - action: action_vehicle_body
+      - intent: intent_vehicle_body_suv
+      - action: action_vehicle_body_suv
+      - action: action_features
+      - intent: intent_features_luxus
+      - action: action_features_luxus
+      - action: action_range
+      - intent: intent_range_very
+      - action: action_range_very
+      - action: action_budget
+      - intent: intent_budget_low
+      - action: action_budget_low
+      - action: action_value
+      - intent: intent_value
+      - action: tailor_response

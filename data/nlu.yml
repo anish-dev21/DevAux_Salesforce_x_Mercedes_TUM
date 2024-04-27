@@ -8,7 +8,7 @@ nlu:
       - yoo
       - heyy
 
-  - intent: action_range_very
+  - intent: intent_range_very
     examples: |
       - range is very important
       - extremely important
@@ -18,7 +18,7 @@ nlu:
       - indispensable
       - I need car's range
 
-  - intent: action_range_little
+  - intent: intent_range_little
     examples: |
       - of little importance
       - of no importance
@@ -27,7 +27,7 @@ nlu:
       - not important
       - I don't need car's range
 
-  - intent: action_vehicle_body_suv
+  - intent: intent_vehicle_body_suv
     examples: |
       - An suv is what interests me the most
       - I would like an SUV
@@ -48,7 +48,7 @@ nlu:
       - I would like a bigger car
       - I want something big
 
-  - intent: action_vehicle_body_saloon
+  - intent: intent_vehicle_body_saloon
     examples: |
       - I want a saloon
       - saloon
@@ -66,7 +66,7 @@ nlu:
       - I am into sidans
       - Something like a limousine
 
-  - intent: action_features_tech
+  - intent: intent_features_tech
     examples: |
       - what I prioritze the most is tech
       - I want my car to have the newest technology
@@ -75,7 +75,7 @@ nlu:
       - I'd like to have the best technologies in my car
       - I love technology
 
-  - intent: action_features_transport
+  - intent: intent_features_transport
     examples: |
       - I see my car as a transportation mean
       - I dont care about tech
@@ -90,7 +90,7 @@ nlu:
       - Tech is not my priority
       - Im not looking for something premium
 
-  - intent: action_features_luxus
+  - intent: intent_features_luxus
     examples: |
       - I want something more in the premium side
       - I would like something premium
@@ -102,7 +102,7 @@ nlu:
       - I am looking for the best quality
       - i want good mateirals
 
-  - intent: action_budget_high
+  - intent: intent_budget_high
     examples: |
       - Budget is not a problem
       - I am willing to spend more money
@@ -111,7 +111,7 @@ nlu:
       - i value quality over price
       - price is not a problem
 
-  - intent: action_budget_medium
+  - intent: intent_budget_medium
     examples: |
       - Not too much but not too little
       - somewhere in the middle
@@ -121,7 +121,7 @@ nlu:
       - a medium price
       - a price that is not too expensive
 
-  - intent: action_budget_low
+  - intent: intent_budget_low
     examples: |
       - I dont want to spend too much
       - I do not have a low budget

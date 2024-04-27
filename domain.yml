@@ -3,7 +3,7 @@ version: "3.1"
 actions:
   - action_range
   - action_vehicle_body
-  - action_priorities
+  - action_features
   - action_budget_range
   - action_budget
   - tailor_reponse
@@ -22,16 +22,16 @@ actions:
 
 intents:
   - greet
-  - action_range_very
-  - action_range_little
-  - action_vehicle_body_suv
-  - action_vehicle_body_saloon
-  - action_features_tech
-  - action_features_transport
-  - action_features_luxus
-  - action_budget_high
-  - action_budget_medium
-  - action_budget_low
+  - intent_range_very
+  - intent_range_little
+  - intent_vehicle_body_suv
+  - intent_vehicle_body_saloon
+  - intent_features_tech
+  - intent_features_transport
+  - intent_features_luxus
+  - intent_budget_high
+  - intent_budget_medium
+  - intent_budget_low
   - intent_value
 
 rules:
