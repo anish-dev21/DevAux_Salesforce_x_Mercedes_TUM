@@ -1,23 +1,42 @@
 version: "3.1"
 
+actions:
+  - action_vehicle_body_suv
+  - action_vehicle_body_saloon
+
+  - action_features_tech
+  - action_features_transport
+  - action_features_luxus
+
+  - action_range_very
+  - action_range_little
+
+  - action_budget_high
+  - action_budget_medium
+  - action_budget_little
+  
+  - action_range
+  - action_vehicle_body
+  - action_features
+  - action_budget_range
+  - action_budget
+  - tailor_response
+  - action_value
+  - combustion
+  - alternative
+
 intents:
   - greet
-  - ext_colour_car
-  - out_of_scope
-  
-responses:
-  utter_starter:
-    - text: |
-        Hello! Welcome to the Mercedes chatbot assistance. I'm here to assist you with any inquiries you may have. How can I be of service to you today?
-       
-  utter_ext_colour_car:
-    - text: |
-        Our Mercedes electric vehicles offer a range of stylish exterior colors, including White, Black, Red, Brown, and Black-Metallic. 
-        These colors are available without any additional cost, and while we don't offer extensive customization options, you can choose 
-        from our standard palette to suit your preferences.
-        
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
-actions:
-  - action_default_fallback  
+  - intent_range_very
+  - intent_range_little
+  - intent_vehicle_body_suv
+  - intent_vehicle_body_saloon
+  - intent_features_tech
+  - intent_features_transport
+  - intent_features_luxus
+  - intent_budget_high
+  - intent_budget_medium
+  - intent_budget_little
+  - combustion
+  - alternative
+
