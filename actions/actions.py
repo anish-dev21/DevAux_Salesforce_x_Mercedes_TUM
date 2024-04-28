@@ -11,12 +11,8 @@ class ActionVehicleBody(Action):
     def run(self, dispatcher: CollectingDispatcher,
         tracker: Tracker,
         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        dispatcher.utter_message("""
-        Have you thought about the electric vehicle lineup and what 
-        body type might best fit your lifestyle? Are you envisioning
-        yourself in a sleek sedan, a versatile SUV, or perhaps a stylish 
-        compact model?
-        """)
+        dispatcher.utter_message("""What do you think of the electric vehicle? Help saving the world you know :)
+                                 Also is there a model you prefer? SUV, sedan or maybe saloon""")
         return []
 class ActionVehicleBodySuv(Action):
     def name(self) -> Text:
@@ -59,11 +55,7 @@ class ActionFeatures(Action):
     def run(self, dispatcher: CollectingDispatcher,
         tracker: Tracker,
         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        dispatcher.utter_message("""
-        What features are you looking forward to the most? Do you prioritize
-        more advanced technology, premium materials or do you see your car more
-        as just a transportation method?
-        """)
+        dispatcher.utter_message("""Would you like your car to have more advanced technology, premium materials, spacious design?""")
 
 class ActionFeaturesTransport(Action):
     def name(self) -> Text:
@@ -93,7 +85,7 @@ class ActionRange(Action):
     def run(self, dispatcher: CollectingDispatcher,
         tracker: Tracker,
         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        dispatcher.utter_message("""Do you give a lot of importance to the vehicles range?
+        dispatcher.utter_message("""Do you give a shit about vehicles range?
         (A vehicles range is how long you can drive it without filling the tank)""")
         return []
     
@@ -126,12 +118,9 @@ class ActionBudget(Action):
     def run(self, dispatcher: CollectingDispatcher,
         tracker: Tracker,
         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        dispatcher.utter_message("""Budget is important, and electric vehicles offer exceptional 
-        value. What's your comfortable range for investing in a high-quality electric car that
-        provides long-term savings and luxury?""")
+        dispatcher.utter_message("""Do you have a budget?""")
         return []
     
-
 class ActionBudgetHigh(Action):
     def name(self) -> Text:
         return "action_budget_high"
@@ -174,9 +163,7 @@ class ActionValue(Action):
     def run(self, dispatcher: CollectingDispatcher,
         tracker: Tracker,
         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        dispatcher.utter_message("""What do you value the most from your car? 
-        Tell us what is important to you and what you would like to see in your
-        future car""")
+        dispatcher.utter_message("""what you would like to see in your future car""")
         return []
     
 class TailorResponse(Action):
@@ -186,7 +173,7 @@ class TailorResponse(Action):
     def run(self, dispatcher: CollectingDispatcher,
         tracker: Tracker,
         domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        dispatcher.utter_message("""This is the car for you""")
+        dispatcher.utter_message("""I think this might be the perfect fit for you!""")
         return []
 
 
