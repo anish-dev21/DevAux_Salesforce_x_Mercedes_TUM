@@ -47,9 +47,6 @@ nlu:
       - range is something i am really looking for in my future car
       - range is something extremely necessary
       - i value range a lot
-      - my car must have a good range
-      - my car must be able to drive for very long times
-      - my car has to have a good range
       - i value range so much
       - i value range a lot
       - i find range extremely important
@@ -92,6 +89,10 @@ nlu:
       - I don't need car's range
       - it's alright
       - nah
+      - its not important
+      - its not very important
+      - its not that important
+      - its no so important
       - not necessary
 
   - intent: intent_vehicle_body_suv
@@ -104,6 +105,10 @@ nlu:
       - I would like a versatile SUV
       - I am considering getting an SUV
       - SUV
+      - I am thinking of an suv
+      - I am considering an suv
+      - I would like an suv
+      - i am into suv
       - I want SUV
       - suv definitely
       - I will get an SUV
@@ -146,6 +151,9 @@ nlu:
       - sedans look very good
       - sedan
       - sedan
+      - I want a sedan
+      - I would like a sedan
+      - I am interested in sedan
       - im getting a sedan
       - sedan would be nice
       - i am interested in a nice sedan
@@ -206,9 +214,16 @@ nlu:
       - I would like my car to be modern and have lots of features
       - I want a car that has a lot of features
       - features, modern and with new technologies
+      - i am into tech
+      - technology and modern
 
   - intent: intent_features_transport
     examples: |
+      - means of transportation
+      - something for means of tranportation
+      - transportation is the important
+      - I would like a means of tranportation
+      - means of transportation is my priority
       - something for transport
       - as a transportation means
       - as a means of transportation
@@ -217,24 +232,6 @@ nlu:
       - means of transportation for sure
       - I need a means of transportation
       - I see my car as a transportation mean
-      - I dont care about tech
-      - I dont care about luxus
-      - Luxus and tech are not important to me
-      - I want a car that does its job
-      - I just see my car a way to travel
-      - I just want the car to move around
-      - I dont give importance to luxus
-      - I dont want super high quality
-      - Quality is not a priority
-      - Tech is not my priority
-      - Im not looking for something premium
-      - convenient
-      - commuting
-      - pendeln
-      - I want something to get me from A to B
-      - I want something that is just for transportation
-      - just transportation
-      - I want something that does the job
       - just as a transportation means
       - means of transportation
       - I would say means of transport
@@ -253,6 +250,12 @@ nlu:
       - luxurious would be ideal
       - luxurious of course
       - luxurious please
+      - I would like to have something luxurious
+      - luxurious is what I am looking for
+      - I am interested in luxus
+      - luxus would be good
+      - luxus
+      - something luxurious
       - I want something premium
       - I want something with good materials
       - I give a lot of importance to the materials
@@ -272,13 +275,6 @@ nlu:
       - I would like something premium
       - I want something luxurius
       - I want luxus
-      - I love a nice feel
-      - I want something that feels good
-      - I want quality
-      - I am looking for the best quality
-      - i want good mateirals
-      - supreme
-      - superior
 
   - intent: intent_budget_high
     examples: |
@@ -293,6 +289,19 @@ nlu:
 
   - intent: intent_budget_medium
     examples: |
+      - something medium
+      - maybe medium
+      - something medium
+      - I want something medium
+      - medium probably
+      - medium i thinkk
+      - i think medium
+      - I want something medium
+      - I am considering medium
+      - medium probably
+      - probably medium
+      - I would like medium
+      - medium i believe
       - medium
       - its medium
       - medium medium medium
@@ -313,11 +322,38 @@ nlu:
       - I believe its low
       - I think low
       - its low
+      - mine is low
+      - I want something low
+      - low is enough
+      - I am thinking of something low
+      - something low
+      - low is what I want
+      - I would like low
+      - maybe low
+      - low maybe
+      - low probably
+      - probably low
+      - I believe low
+      - low I believe
+      - low most likely
 
 
 
   - intent: alternative
     examples: |
+      - can you offer any other alternatives
+      - is there any other alternatives
+      - is there any other alternative
+      - can you give me some alternatives
+      - can you give me some alternative
+      - give me some alaternative
+      - is there an alternative
+      - is there alternatives to that
+      - what do you have for alternatives
+      - alternative please
+      - please an alternative
+      - do an alternative please
+      - give me an alternative 
       - is there any other options available
       - is there another option available
       - i am looking for alternatives
@@ -347,6 +383,21 @@ nlu:
 
   - intent: combustion
     examples: |
+      - what combustion cars do you have
+      - is there any combustion cars
+      - why should I buy electric cars
+      - what are the advantages of electric cars
+      - are electric cars a good option
+      - I like electric vars
+      - im interested in an electric car
+      - I think I want a combustion car
+      - please give me a combustion car
+      - combustion engine or electrical engine
+      - combustion car or electrical car
+      - combustin car or electric car
+      - im interested in combustion cars
+      - im interested in electric cars
+      - ecars are good
       - combustion combustion combustion
       - combustion car please
       - what if I get a combustion car
