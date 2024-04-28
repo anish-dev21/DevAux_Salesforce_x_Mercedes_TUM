@@ -3,56 +3,370 @@ version: "3.1"
 nlu:
   - intent: greet
     examples: |
-      - hey
+      - hi
+      - hello
+      - yoo
+      - heyy
+      - sup
+      - hey there
+      - morning
+      - night
+      - hallo
+      - heyy
       - hello
       - hi
-      - hello there
-      - good morning
-      - good evening
-      - moin
-      - hey there
-      - let's go
-      - hey dude
-      - goodmorning
-      - goodevening
-      - good afternoon
-      - hallo
-      - guten morgen
-      - guten tag
-      - los geht's
-      - halli hello
-      - guten abend
-      
-  - intent: ext_colour_car
-    examples: |
-      - What color options are available for the Mercedes electric vehicle?
-      - Can you provide a list of available colors for the Mercedes electric car?
-      - Do you have any metallic color options for the Mercedes electric vehicle?
-      - Are there any special edition or limited edition color options for the Mercedes electric car?
-      - Can I customize the color of my Mercedes electric vehicle?
-      - Is there an additional cost for choosing certain color options for the Mercedes electric car?
-      - Do you have any eco-friendly paint options for the Mercedes electric vehicle?
-      - Can you describe the Diamond White color option available for the Mercedes electric car?
-      - Are there any two-tone color combinations available for the Mercedes electric vehicle?
-      - Do you offer any matte finish paint options for the Mercedes electric car?
-      - Can I see some images of the Mercedes electric vehicle in different color options?
-      - What's the most popular color choice for the Mercedes electric car?
-      - Are there any color options that are exclusive to the electric model of Mercedes vehicles?
-      - Does the color choice affect the delivery time of the Mercedes electric vehicle?
-      - Can I change the color of my Mercedes electric vehicle after placing the order?
-      - Is there a warranty for the paint finish of the Mercedes electric car?
-      - Are there any color options that require special maintenance for the Mercedes electric vehicle?
-      - Do you have any color packages or bundles available for the Mercedes electric car?
-      - Can I request a custom color for my Mercedes electric vehicle?
-      - Are there any upcoming color options or paint upgrades planned for the Mercedes electric car?
 
-  - intent: out_of_scope
+  - intent: intent_range_very
     examples: |
-      - I want to order food
-      - What is 2 + 2?
-      - Who's the US President?
-      - Wer wird Fußball Weltmeister?
-      - Welche Restaurants gibt es in München?
-      - sdfsdfs
-      - soos
-      - are you stupid?
+      - I give range a lot of importance
+      - I value a lot the range of my vehicle
+      - I belive range is something essential
+      - yes
+      - absolutely
+      - yes
+      - yeah
+      - of course
+      - obviously
+      - range for me is something essential
+      - range is something super important
+      - yes, extremely
+      - yeahh
+      - yess
+      - a lot
+      - its so important
+      - its something essential
+      - for me range is something basic
+      - yeah, range for me is a must
+      - range is a must
+      - range is essential
+      - range is my priority
+      - yeyy
+      - yessir
+      - yes, i need range
+      - i love range
+      - range is something i am really looking for in my future car
+      - range is something extremely necessary
+      - i value range a lot
+      - my car must have a good range
+      - my car must be able to drive for very long times
+      - my car has to have a good range
+      - i value range so much
+      - i value range a lot
+      - i find range extremely important
+      - range is soo important
+      - yess
+      - yes
+      - yeah
+
+  - intent: intent_range_little
+    examples: |
+      - no
+      - no i dont
+      - nope
+      - nah
+      - noo
+      - nooo
+      - no no no
+      - no
+      - not really
+      - not much
+      - not at all
+      - not really
+      - not much
+      - not that much
+      - not really
+      - no i am not
+      - no
+      - im not
+      - i am not interested in range
+      - not much
+      - no
+      - noo
+      - not much
+      - to be honest, not really
+      - not that much
+      - of little importance
+      - of no importance
+      - I do not care about ample range
+      - not important
+      - I don't need car's range
+      - it's alright
+      - nah
+      - not necessary
+
+  - intent: intent_vehicle_body_suv
+    examples: |
+      - I would like SUV
+      - An suv is what interests me the most
+      - I am interested in SUV's
+      - I would like an SUV
+      - I would like to get an SUV
+      - I would like a versatile SUV
+      - I am considering getting an SUV
+      - SUV
+      - I want SUV
+      - suv definitely
+      - I will get an SUV
+      - I believe I want an SUV
+      - I am thinking of something more in the compact side
+      - compact SUV
+      - I want a compact SUV
+      - compact but stylish
+      - I want to get a compact car
+      - I am into compact vehicles
+      - I want compact
+      - compact is my passion
+      - I want an SUV
+      - SUV is what I am intested in
+      - SUV please
+      - SUV
+      - Hatchbacks
+      - Something compact
+      - I want a compact vehicle
+
+  - intent: intent_vehicle_body_saloon
+    examples: |
+      - id like saloon
+      - I want saloon
+      - Id like a saloon
+      - saloon
+      - i would like a longer car
+      - im interested in longer cars
+      - long car please
+      - I want to get a saloon
+      - saloon
+      - saloons are what im into
+      - I like saloons
+      - saloon for sure
+      - absolutely saloon
+      - i think saloons are cool
+      - saloons are cool
+      - i want a longer car
+      - I want  a nice sedan
+      - sedans look very good
+      - sedan
+      - sedan
+      - im getting a sedan
+      - sedan would be nice
+      - i am interested in a nice sedan
+      - sedans are classy
+      - I love classy cars
+      - I want something classy
+      - classy and elegant
+      - elegant sedan
+      - sedan would be elegant 
+      - I want a saloon
+      - saloon
+      - saloon would be cool
+      - saloon would be nice
+      - I would like a saloon
+      - I like Coupés
+      - I would like a long car
+      - Something long
+      - Something stylish
+      - something classy
+      - I want a car that is elegant
+      - I want a sidan
+      - I like sidans
+      - I am into sidans
+      - Something like a limousine
+      - elegant sporty
+
+  - intent: intent_features_tech
+    examples: |
+      - what I prioritze the most is tech
+      - I want my car to have the newest technology
+      - I am interested in technology the most
+      - I want my car to be modern and cool
+      - I'd like to have the best technologies in my car
+      - I love technology
+      - features
+      - Assist
+      - parking package
+      - surroundings monitoring
+      - Active Steer Assist
+      - systems
+      - smart
+      - intelligent
+      - I am more into tech
+      - advanced technology
+      - something more techy
+      - I want something technological
+      - technology is my thing
+      - I want something more into tech
+      - something more modern
+      - I want new features in my car
+      - I would like interesting features in my car
+      - something with nice features
+      - I would like something with a lot of tech
+      - something techy
+      - I am very interested in technology
+      - I would like to do something related to technology
+      - something technological
+      - I would like my car to be modern and have lots of features
+      - I want a car that has a lot of features
+      - features, modern and with new technologies
+
+  - intent: intent_features_transport
+    examples: |
+      - something for transport
+      - as a transportation means
+      - as a means of transportation
+      - my car is a means of transportation
+      - definitely means of transportation
+      - means of transportation for sure
+      - I need a means of transportation
+      - I see my car as a transportation mean
+      - I dont care about tech
+      - I dont care about luxus
+      - Luxus and tech are not important to me
+      - I want a car that does its job
+      - I just see my car a way to travel
+      - I just want the car to move around
+      - I dont give importance to luxus
+      - I dont want super high quality
+      - Quality is not a priority
+      - Tech is not my priority
+      - Im not looking for something premium
+      - convenient
+      - commuting
+      - pendeln
+      - I want something to get me from A to B
+      - I want something that is just for transportation
+      - just transportation
+      - I want something that does the job
+      - just as a transportation means
+      - means of transportation
+      - I would say means of transport
+      - I see it more as a means of transport
+      - for transport
+
+  - intent: intent_features_luxus
+    examples: |
+      - I want a luxus
+      - I am looking for a luxury
+      - more luxurious
+      - i want something luxurious
+      - luxurious would work the best for me
+      - I am looking for something very luxurious
+      - luxurious sounds good
+      - luxurious would be ideal
+      - luxurious of course
+      - luxurious please
+      - I want something premium
+      - I want something with good materials
+      - I give a lot of importance to the materials
+      - Quality is very important to me
+      - Quality is important
+      - I want something luxurius
+      - luxurius
+      - luxus
+      - something fancy
+      - fancy
+      - i would like to have a fancy car
+      - I want something premium
+      - I want something with premium materials
+      - premium and elegant
+      - elegant
+      - I want something more in the premium side
+      - I would like something premium
+      - I want something luxurius
+      - I want luxus
+      - I love a nice feel
+      - I want something that feels good
+      - I want quality
+      - I am looking for the best quality
+      - i want good mateirals
+      - supreme
+      - superior
+
+  - intent: intent_budget_high
+    examples: |
+      - high
+      - high high high
+      - mine is high
+      - i think high
+      - i believe high
+      - i would say high
+      - id say high
+      - highh
+
+  - intent: intent_budget_medium
+    examples: |
+      - medium
+      - its medium
+      - medium medium medium
+      - its medium i think
+      - i believe its medium
+      - i think its medium
+      - mines medium
+      - mediumm
+      - i would say medium
+
+  - intent: intent_budget_little
+    examples: |
+      - low
+      - low low low
+      - loww
+      - its very low
+      - I would say low
+      - I believe its low
+      - I think low
+      - its low
+
+
+
+  - intent: alternative
+    examples: |
+      - is there any other options available
+      - is there another option available
+      - i am looking for alternatives
+      - what other alternatives do you have
+      - i want an alternative
+      - what would be the best alternative
+      - alternative alternative alternative
+      - alternative
+      - an alternative please
+      - Do you have any cheaper alternatives
+      - Could you please give me any alternatives a little more affordable
+      - Can you provide me with any other alternative
+      - what are your alternatives
+      - I would be interested in some alternatives
+      - what other options do you offer?
+      - what other options could you provide me?
+      - is there any other option available?
+      - what other things do you guys have available?
+      - what other options does Mercedes currently have?
+      - can you provide me with some alternatives
+      - can you maybe give me some alternatives?
+      - is there any ohter possible alternative?
+      - do you guys maybe offer something a little cheaper?
+      - do you guys offer something a little fancier
+      - is there any cheaper alternatives?
+      - is there any more modern alternatives?
+
+  - intent: combustion
+    examples: |
+      - combustion combustion combustion
+      - combustion car please
+      - what if I get a combustion car
+      - I might get a combustion car
+      - why electric cars
+      - What about a combustion car
+      - do you guys also sell combustion cars?
+      - do you sell normal cars
+      - do you guys sell any hybrid cars?
+      - what about combustion engine cars
+      - what about hybrid cars?
+      - what about non-electric cars?
+      - what about combustion engines
+      - I would like to get a combustion car
+      - why should I get an electric car
+      - what are the benefits of electric cars?
+      - is there any advantages to electric cars over combustion cars?
+      - are electric cars worth it
+      - what advantages do electric cars havve
+      - I am thinking of getting a combustion vehicle
+      - I would like an electric car
+      - do you guys sell e-cars
+      - what type of e-cars are currently available
