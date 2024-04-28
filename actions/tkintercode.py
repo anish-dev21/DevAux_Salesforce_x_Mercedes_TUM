@@ -54,13 +54,16 @@ class RasaChatbot:
         except Exception as e:
             self.message_queue.put([{"text": str(e)}])
 
+    def display_bot_message(self, message):
+        ChatBubble(self.frame, text=message, sender="Mercedes AI")
+
     def process_responses(self):
         try:
             while not self.message_queue.empty():
                 response = self.message_queue.get_nowait()
                 for message in response:
                     if 'text' in message:
-                        ChatBubble(self.frame, text=message['text'], sender="Mercedes AI")  # Change sender name here
+                        self.display_bot_message(message['text'])
         except queue.Empty:
             pass
         finally:
@@ -73,6 +76,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
