@@ -7,6 +7,8 @@ nlu:
       - hello
       - yoo
       - heyy
+      - sup
+      - hey there
 
   - intent: intent_range_very
     examples: |
@@ -17,7 +19,11 @@ nlu:
       - important
       - indispensable
       - I need car's range
-
+      - necessary
+      - for sure
+      - definitely
+      - defo
+      
   - intent: intent_range_little
     examples: |
       - of little importance
@@ -26,6 +32,9 @@ nlu:
       - I don't care at all
       - not important
       - I don't need car's range
+      - it's alright
+      - nah
+      - not necessary
 
   - intent: intent_vehicle_body_suv
     examples: |
@@ -33,8 +42,6 @@ nlu:
       - I would like an SUV
       - I want an suv
       - I love SUVs
-      - I would like an Offroader
-      - I want an offroader
       - I want a combi
       - I'd like an MPV
       - I want an MPV
@@ -47,6 +54,14 @@ nlu:
       - compact would be nice
       - I would like a bigger car
       - I want something big
+      - heavy car
+      - heavier car
+      - rough terrain
+      - outdoor activities
+      - mountain bike
+      - higher sitting position
+      - handicap
+      - spacious
 
   - intent: intent_vehicle_body_saloon
     examples: |
@@ -65,6 +80,7 @@ nlu:
       - I like sidans
       - I am into sidans
       - Something like a limousine
+      - elegant sporty
 
   - intent: intent_features_tech
     examples: |
@@ -74,6 +90,14 @@ nlu:
       - I want my car to be modern and cool
       - I'd like to have the best technologies in my car
       - I love technology
+      - features
+      - Assist
+      - parking package
+      - surroundings monitoring
+      - Active Steer Assist
+      - systems
+      - smart
+      - intelligent
 
   - intent: intent_features_transport
     examples: |
@@ -89,6 +113,9 @@ nlu:
       - Quality is not a priority
       - Tech is not my priority
       - Im not looking for something premium
+      - convenient
+      - commuting
+      - pendeln
 
   - intent: intent_features_luxus
     examples: |
@@ -101,6 +128,8 @@ nlu:
       - I want quality
       - I am looking for the best quality
       - i want good mateirals
+      - supreme
+      - superior
 
   - intent: intent_budget_high
     examples: |
@@ -121,7 +150,7 @@ nlu:
       - a medium price
       - a price that is not too expensive
 
-  - intent: intent_budget_low
+  - intent: intent_budet_low
     examples: |
       - I dont want to spend too much
       - I do not have a low budget
@@ -137,5 +166,13 @@ nlu:
       - I value that the price is good
       - I want something good for the quality
       - I would like a car that will last long
-      - I have a lot of kids so I want something big
+      - I have kids
       - my car has to be eco-friendly
+      - i have family
+      - seat position
+      - i want better visibility
+      - it should have minimune accessibility
+      - it should have assisted access
+      - mobility accessible
+      - interior design
+      - ambient lighting
