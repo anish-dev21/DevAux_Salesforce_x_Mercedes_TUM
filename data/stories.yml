@@ -2,9 +2,133 @@ version: "3.1"
 
 stories:
 
-  - story: ext_colour_car
+  - story: storybody1_0
     steps:
       - intent: greet
-      - action: utter_starter
-      - intent: ext_colour_car
-      - action: utter_ext_colour_car
+      - action: action_vehicle_body
+      - intent: intent_vehicle_body_suv
+      - action: action_vehicle_body_suv
+      - action: action_features
+      - intent: intent_features_tech
+      - action: action_features_tech
+      - action: action_range
+      - intent: intent_range_very
+      - action: action_range_very
+      - action: action_budget
+      - intent: intent_budget_high
+      - action: action_budget_high
+      - action: tailor_response
+      - intent: combustion
+      - action: combustion
+
+  - story: storybody2
+    steps:
+      - intent: greet
+      - action: action_vehicle_body
+      - intent: intent_vehicle_body_saloon
+      - action: action_vehicle_body_saloon
+      - action: action_features
+      - intent: intent_features_tech
+      - action: action_features_tech
+      - action: action_range
+      - intent: intent_range_very
+      - action: action_range_very
+      - action: action_budget
+      - intent: intent_budget_high
+      - action: action_budget_high
+      - action: tailor_response
+
+  - story: storybody1_1
+    steps:
+      - intent: greet
+      - action: action_vehicle_body
+      - intent: intent_vehicle_body_suv
+      - action: action_vehicle_body_suv
+      - action: action_features
+      - intent: intent_features_transport
+      - action: action_features_transport
+      - action: action_range
+      - intent: intent_range_very
+      - action: action_range_very
+      - action: action_budget
+      - intent: intent_budget_medium
+      - action: action_budget_medium
+      - action: tailor_response
+      - intent: combustion
+      - action: combustion
+
+  - story: storybody1_2
+    steps:
+      - intent: greet
+      - action: action_vehicle_body
+      - intent: intent_vehicle_body_suv
+      - action: action_vehicle_body_suv
+      - action: action_features
+      - intent: intent_features_luxus
+      - action: action_features_luxus
+      - action: action_range
+      - intent: intent_range_very
+      - action: action_range_very
+      - action: action_budget
+      - intent: intent_budget_medium
+      - action: action_budget_medium
+      - action: tailor_response
+      - intent: alternative
+      - action: alternative
+
+  - story: storybody1_3
+    steps:
+      - intent: greet
+      - action: action_vehicle_body
+      - intent: intent_vehicle_body_suv
+      - action: action_vehicle_body_suv
+      - action: action_features
+      - intent: intent_features_tech
+      - action: action_features_tech
+      - action: action_range
+      - intent: intent_range_little
+      - action: action_range_little
+      - action: action_budget
+      - intent: intent_budget_high
+      - action: action_budget_high
+      - action: tailor_response
+      - intent: combustion
+      - action: combustion
+
+  - story: story3
+    steps:
+      - intent: greet
+      - action: action_vehicle_body
+      - intent: intent_vehicle_body_saloon
+      - action: action_vehicle_body_saloon
+      - action: action_features
+      - intent: intent_features_luxus
+      - action: action_features_luxus
+      - action: action_range
+      - intent: intent_range_very
+      - action: action_range_very
+      - action: action_budget
+      - intent: intent_budget_little
+      - action: action_budget_little
+      - action: tailor_response
+      - intent: combustion
+      - action: combustion
+  
+  - story: story4
+    steps:
+      - intent: greet
+      - action: action_vehicle_body
+      - intent: intent_vehicle_body_suv
+      - action: action_vehicle_body_suv
+      - action: action_features
+      - intent: intent_features_tech
+      - action: action_features_tech
+      - action: action_range
+      - intent: intent_range_little
+      - action: action_range_little
+      - action: action_budget
+      - intent: intent_budget_high
+      - action: action_budget_high
+      - action: tailor_response
+      - intent: alternative
+      - action: alternative
