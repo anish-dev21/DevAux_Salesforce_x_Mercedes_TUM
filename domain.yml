@@ -1,20 +1,20 @@
 version: "3.1"
 
 actions:
-  - action_vehicle_body_suv
+  - action_vehicle_body_suv #
   - action_vehicle_body_saloon
 
-  - action_features_tech
+  - action_features_tech #
   - action_features_transport
   - action_features_luxus
 
-  - action_range_very
+  - action_range_very 
   - action_range_little
 
   - action_budget_high
   - action_budget_medium
   - action_budget_low
-  
+
   - action_range
   - action_vehicle_body
   - action_features

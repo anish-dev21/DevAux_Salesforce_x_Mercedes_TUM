@@ -20,25 +20,6 @@ stories:
       - intent: intent_value
       - action: tailor_response
 
- - story: storybody2
-    steps:
-      - intent: greet
-      - action: action_vehicle_body
-      - intent: intent_vehicle_body_saloon
-      - action: action_vehicle_body_saloon
-      - action: action_features
-      - intent: intent_features_tech
-      - action: action_features_tech
-      - action: action_range
-      - intent: intent_range_very
-      - action: action_range_very
-      - action: action_budget
-      - intent: intent_budget_high
-      - action: action_budget_high
-      - action: action_value
-      - intent: intent_value
-      - action: tailor_response
-
   - story: storybody1_1
     steps:
       - intent: greet
@@ -87,8 +68,8 @@ stories:
       - intent: intent_features_tech
       - action: action_features_tech
       - action: action_range
-      - intent: intent_range_very
-      - action: action_range_very
+      - intent: intent_range_little
+      - action: action_range_little
       - action: action_budget
       - intent: intent_budget_high
       - action: action_budget_high
@@ -121,6 +102,25 @@ stories:
       - action: action_vehicle_body
       - intent: intent_vehicle_body_suv
       - action: action_vehicle_body_suv
+      - action: action_features
+      - intent: intent_features_transport
+      - action: action_features_transport
+      - action: action_range
+      - intent: intent_range_little
+      - action: action_range_little
+      - action: action_budget
+      - intent: intent_budget_high
+      - action: action_budget_high
+      - action: action_value
+      - intent: intent_value
+      - action: tailor_response
+
+ - story: storybody2
+    steps:
+      - intent: greet
+      - action: action_vehicle_body
+      - intent: intent_vehicle_body_saloon
+      - action: action_vehicle_body_saloon
       - action: action_features
       - intent: intent_features_tech
       - action: action_features_tech
